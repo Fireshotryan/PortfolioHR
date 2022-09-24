@@ -462,10 +462,10 @@ footer span a:hover{
   .wrapper .github:hover .tooltip:before{
     background: #333;
   }
-  .wrapper .youtube:hover span,
-  .wrapper .youtube:hover .tooltip,
-  .wrapper .youtube:hover .tooltip:before{
-    background: #DE463B;
+  .wrapper .linkedin:hover span,
+  .wrapper .linkedin:hover .tooltip,
+  .wrapper .linkedin:hover .tooltip:before{
+    background: #0A66C2;
   }
 
 
