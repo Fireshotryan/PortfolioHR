@@ -576,4 +576,7 @@ footer span a:hover{
     .skills .skills-content .left .text{
         font-size: 19px;
     }
+    footer {
+       font-size: 8px; 
+    }
 }
