@@ -684,4 +684,8 @@ footer span a:hover {
         margin: 0 3px;
         font-size: 14px;
     }
+    .about .about-content .left img {
+        height: 350px;
+        width: 300px;
+    }
 }
