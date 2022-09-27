@@ -671,7 +671,7 @@ footer span a:hover {
         font-size: 19px;
     }
     footer {
-        font-size: 8px;
+        font-size: 12px;
     }
     .wrapper .icon {
         margin: 0 10px;
@@ -681,5 +681,8 @@ footer span a:hover {
 @media (max-width: 300px) {
     .wrapper .icon {
         margin: 0 1px;
+    }
+    footer {
+        font-size: 8px;
     }
 }
