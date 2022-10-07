@@ -806,14 +806,7 @@ footer span a:hover {
     .right form .error-box{
        width: 150px;
     }
-    .scroll-up-btn{
-        right: 15px;
-        bottom: 15px;
-        height: 38px;
-        width: 35px;
-        font-size: 2em;
-        line-height: 38px;
-    }
+   
     .right form .button-area button{
         color: #fff;
         display: block;
