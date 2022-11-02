@@ -551,7 +551,7 @@ section .title::after {
 }
 
 input:invalid {
-    background: hsla(0, 90%, 70%, 1);
+    background: rgb(233, 120, 120);
   }
   
   input:valid {
@@ -559,7 +559,7 @@ input:invalid {
   }
 
   textarea:invalid {
-    background: hsla(0, 90%, 70%, 1);
+    background: rgb(233, 120, 120);
   }
 
   textarea:valid{
