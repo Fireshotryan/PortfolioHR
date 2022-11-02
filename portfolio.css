@@ -550,29 +550,6 @@ section .title::after {
     background: none;
 }
 
-.message {
-    width: 100%;
-    position: relative;
-    margin-bottom: 60px;
-    display: flex;
-    justify-content: center;
-}
-
-.message .success {
-    font-size: 1.2em;
-    color: green;
-    position: absolute;
-    animation: buttons .3s linear;
-    display: none;
-}
-
-.message .danger {
-    font-size: 1.2em;
-    color: red;
-    position: absolute;
-    display: none;
-}
-
 
 /* footer section styling */
 
