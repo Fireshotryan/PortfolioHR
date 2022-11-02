@@ -34,6 +34,10 @@ html {
 
 /* all similar content styling codes */
 
+header {
+    font-family: 'Ubuntu', sans-serif;
+}
+
 section {
     padding: 100px 0;
 }
@@ -108,7 +112,6 @@ section .title::after {
     width: 100vw;
     z-index: 999;
     padding: 15px 0;
-    font-family: 'Ubuntu', sans-serif;
     transition: all 0.3s ease;
 }
 
