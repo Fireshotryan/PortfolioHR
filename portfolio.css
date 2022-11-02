@@ -550,6 +550,21 @@ section .title::after {
     background: none;
 }
 
+input:invalid {
+    background: hsla(0, 90%, 70%, 1);
+  }
+  
+  input:valid {
+    background: white;
+  }
+
+  textarea:invalid {
+    background: hsla(0, 90%, 70%, 1);
+  }
+
+  textarea:valid{
+   background: white;
+}
 
 /* footer section styling */
 
