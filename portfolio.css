@@ -191,11 +191,9 @@ section .title::after {
     bottom: 30px;
     opacity: 1;
     pointer-events: auto;
+    filter: drop-shadow(6px 6px 12px crimson) invert(25%);
 }
 
-.scroll-up-btn:hover {
-    filter: brightness(90%);
-}
 
 
 /* home section styling */
