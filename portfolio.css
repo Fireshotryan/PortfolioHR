@@ -188,7 +188,7 @@ section .title::after {
 }
 
 .scroll-up-btn.show {
-    bottom: 30px;
+    bottom: 90px;
     opacity: 1;
     pointer-events: auto;
     filter: drop-shadow(6px 6px 12px crimson) invert(25%);
