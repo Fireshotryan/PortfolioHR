@@ -353,8 +353,17 @@ section .title::after {
     margin: 10px 0 7px 0;
 }
 
+/* CLE video sectie */
+
+#werkvr.about .about-content .right {
+    width: 45%;
+}
 
 /* Mijn skills */
+
+.skills {
+    background-color: #D3D3D3;
+}
 
 .skills .skills-content .column {
     width: calc(50% - 30px);
@@ -433,10 +442,6 @@ section .title::after {
 
 
 /* contact formulier */
-
-.contact {
-    background-color: #D3D3D3;
-}
 
 .contact .contact-content .column {
     width: calc(50% - 30px);
