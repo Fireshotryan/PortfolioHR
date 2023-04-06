@@ -464,7 +464,7 @@ section .title::after {
 }
 
 .timeline-item .timeline-img-header3 {
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url("images/CLE3.PNG") center center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url("images/CLE3.png") center center no-repeat;
     background-size: cover;
 }
 
