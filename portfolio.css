@@ -469,7 +469,7 @@ section .title::after {
 }
 
 .timeline-item .timeline-img-header4 {
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url("images/excalibur.png") center center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url("images/Game.PNG") center center no-repeat;
     background-size: cover;
 }
 
@@ -575,7 +575,7 @@ blockquote {
 }
 
 .datefour {
-    background: #39ce2c;
+    background: #81bab1;
     display: inline-block;
     color: #000000;
     padding: 10px;
