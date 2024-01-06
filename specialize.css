@@ -104,13 +104,23 @@ section .title::after {
     transform: translateX(-50%);
 }
 
+
+section#value.about .about-content .left img {
+    height: 550px;
+    width: 450px;
+    object-fit: cover;
+    border-radius: 6px;
+    box-shadow: 5px 8px #D3D3D3;
+}
+
+
 section#makemethink.about {
     background: #D3D3D3;
 }
 
 section#makemethink.about .about-content .left img {
-    height: 400px;
-    width: 400px;
+    height: 250px;
+    width: 450px;
     object-fit: cover;
     border-radius: 6px;
     box-shadow: 5px 8px rgb(255, 255, 255);
