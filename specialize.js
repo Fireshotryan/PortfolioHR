@@ -1,23 +1,19 @@
-document.addEventListener("DOMContentLoaded", function() {
-    // Get the modal and the button
-    var modal = document.getElementById("myModal");
-    var btn = document.querySelector(".open-modal-button");
-    var closeBtn = document.querySelector(".close");
-
-    // Open the modal when the button is clicked
-    btn.addEventListener("click", function() {
-        modal.style.display = "flex";
+$(document).ready(function () {
+    // Open modal event
+    $(".open-modal-button").click(function () {
+        var modalId = $(this).data("modal-id");
+        $("#" + modalId).css("display", "block");
     });
 
-    // Close the modal when the close button is clicked
-    closeBtn.addEventListener("click", function() {
-        modal.style.display = "none";
+    // Close modal event
+    $(".close").click(function () {
+        $(this).closest(".modal").css("display", "none");
     });
 
-    // Close the modal when clicking outside the modal content
-    window.addEventListener("click", function(event) {
-        if (event.target === modal) {
-            modal.style.display = "none";
+    // Close modal when clicking outside the modal content
+    $(window).click(function (event) {
+        if (event.target.classList.contains("modal")) {
+            $(".modal").css("display", "none");
         }
     });
 });
