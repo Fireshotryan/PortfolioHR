@@ -473,6 +473,16 @@ section .title::after {
     background-size: cover;
 }
 
+.timeline-item .timeline-img-header5 {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url("images/laravel.PNG") center center no-repeat;
+    background-size: cover;
+}
+
+.timeline-item .timeline-img-header6 {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url("images/logohr.jpg") center center no-repeat;
+    background-size: cover;
+}
+
 .timeline-img-header {
     height: 200px;
     position: relative;
@@ -519,6 +529,32 @@ section .title::after {
 }
 
 .timeline-img-header4 h2 {
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 5px;
+    left: 20px;
+}
+
+.timeline-img-header5 {
+    height: 200px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.timeline-img-header5 h2 {
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 5px;
+    left: 20px;
+}
+
+.timeline-img-header6 {
+    height: 200px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.timeline-img-header6 h2 {
     color: #FFFFFF;
     position: absolute;
     bottom: 5px;
@@ -576,6 +612,26 @@ blockquote {
 
 .datefour {
     background: #81bab1;
+    display: inline-block;
+    color: #000000;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.datefive {
+    background: #f7b603;
+    display: inline-block;
+    color: #000000;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.datesix {
+    background: rgb(94, 114, 228);
     display: inline-block;
     color: #000000;
     padding: 10px;
